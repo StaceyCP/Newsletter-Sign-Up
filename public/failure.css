@@ -1,0 +1,14 @@
+@media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+  }
+
+.description {
+    margin-top: 25px;
+}
+
+.footer {
+    bottom: 10px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
