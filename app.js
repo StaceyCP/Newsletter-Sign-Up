@@ -21,7 +21,7 @@ app.post("/", function(req, res){
     const url = "https://us12.api.mailchimp.com/3.0/lists/a1c13e46da"
     const options = {
         method: "POST",
-        auth: "stacey6105:a41c6962a08e4edddf46680ba7ce804b-us12"
+        auth: "stacey6105:b9c58b0c3d30839346ebfc73931df6c4-us12"
     }
     const data = {
         members: [
@@ -70,11 +70,3 @@ app.get("/failure", function(req, res){
 app.listen(process.env.PORT || 3000, function(){
     console.log("Server is running on port 3000");
 });
-
-
-
-//API key 
-// a41c6962a08e4edddf46680ba7ce804b-us12
-
-// Audience id
-// a1c13e46da
