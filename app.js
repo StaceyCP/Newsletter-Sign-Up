@@ -21,7 +21,7 @@ app.post("/", function(req, res){
     const url = "https://us12.api.mailchimp.com/3.0/lists/a1c13e46da"
     const options = {
         method: "POST",
-        auth: "stacey6105:b9c58b0c3d30839346ebfc73931df6c4-us12"
+        auth: "stacey6105:YOUR_API_KEY"
     }
     const data = {
         members: [
